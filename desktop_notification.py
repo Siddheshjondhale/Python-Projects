@@ -9,16 +9,16 @@ titleLabel = Label(tkin, text='Title of the notification').grid(row=0,column=0,)
 label2 = Label(tkin, text='Message of the notification').grid(row=1,column=0)
 label3 = Label(tkin, text='After how much time notification should display').grid(row=2,column=0)
 
-#function
-def data():
-    #title = titleLabel.get()
-    print(e2.get())
+
 
 #entry
 e1 = Entry(tkin).grid(row = 0, column=1)
 e2 = Entry(tkin).grid(row = 1, column=1)
 e3 = Entry(tkin).grid(row = 2, column=1)
 
+#function
+def data():
+    #testing
 
 
 
