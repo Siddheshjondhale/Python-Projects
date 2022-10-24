@@ -1,3 +1,5 @@
+import tkinter.messagebox
+
 from plyer import notification as nd
 from tkinter import *
 import pyautogui
@@ -23,7 +25,7 @@ messageEntry.grid(row = 1, column=1)
 timeEntry = Entry(tkin)
 timeEntry.grid(row = 2, column=1)
 # e4 = Entry(Tk()).grid(row = 3, column=1)
-
+tkinter.messagebox.showwarning(title="haha",message="none",)
 #function
 def data():
     try:
